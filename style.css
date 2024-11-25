@@ -16,18 +16,14 @@
     justify-content: center;
     align-items: center;
 }
+
 .main {
     background-color: #0A0A0A;
 }
-.foot {
-    background-color: #0A0A0A;
-    width: 100%;
-    height: 1000px;
-}
-
 .header {
-    width: 1440px;
-    
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 60px;
     height: 96px;
     display: flex;
     align-items: center;
@@ -36,13 +32,47 @@
 }
 
 .name {
-    width: 350px;
+    width: 400px;
     height: 48px;
     color: #C7C7C7;
     font-size: 20px;
-    display: flex;
-    margin-left: 60px;
 
+
+}
+
+@media screen and (min-width:320px) and (max-width:760px) {
+    .head {
+        display: flex;
+
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 16px;
+    }
+
+    .head .intra {
+        display: none;
+    }
+
+    .head .intra2 {
+        display: flex;
+    
+    }
+
+    .head .name h1 {
+        width: 200px;
+        font-size: 20px;
+        width: 1;
+    
+    }
+    .head .name {
+        display: flex;
+        align-items: center;
+        width: 170px;
+    }
 }
 
 .intra {
@@ -58,8 +88,12 @@
     text-align: left;
     text-decoration-skip-ink: none;
     color: #C7C7C7;
-    margin-right: 60px;
 
+
+}
+
+.intra2 {
+    display: none;
 }
 
 .mainbody {
@@ -73,7 +107,7 @@
 }
 
 .mainleft {
-    
+
     width: 544px;
     height: 360px;
     display: flex;
@@ -84,7 +118,7 @@
 .mainrigth {
     width: 600px;
     height: 700px;
-    
+
 }
 
 .mainrigth img {
@@ -95,13 +129,13 @@
 .mainleftdeed {
     width: 100%;
     height: 244px;
-    
+
 }
 
 .mainleftdood {
     width: 327px;
     height: 54px;
-   
+
     margin-bottom: 22px;
     display: flex;
     justify-content: space-between;
@@ -110,7 +144,7 @@
 .mainlefttext {
     width: 580px;
     height: 182px;
-  
+
 }
 
 .mainlefttext2 {
@@ -148,6 +182,7 @@
     color: #0A0A0A;
     font-weight: 500;
 }
+
 .button {
     width: 10px;
     height: 10px;
@@ -156,6 +191,7 @@
     z-index: 10;
 
 }
+
 .in {
     width: 54px;
     height: 54px;
@@ -165,6 +201,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .github {
     width: 54px;
     height: 54px;
@@ -174,18 +211,62 @@
     justify-content: center;
     align-items: center;
 }
+
 .in img {
     width: 26px;
     height: 26px;
 }
+
 .github img {
     width: 26px;
     height: 26px;
 }
+
 .mainborder1px {
     width: 100%;
-    height: 810px;
+    max-width: 1440px;
+    max-height: 811px;
+    height: 100%;
     border-bottom: 1px #484848 solid;
     display: flex;
     justify-content: center;
+}
+@media screen and (min-width:320px) and (max-width:760px) {
+    .mainbody {
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .mainrigth  {
+        width: 343px;
+        height: 400px;
+    }
+    .mainleftdeed {
+        width: 300px;
+        height: 284px;
+        font-size: small;
+    }
+    .mainlefttext h1{
+        width: 100%;
+        height: 284px;
+        font-size: small;
+    }
+    .mainlefttext span {
+        width: 100%;
+        height: 284px;
+        font-size: small;
+    }
+    .mainbody {
+        width: 100%;
+        height: 100%;
+    }
+    .mainleft {
+        width: 100%;
+    }
+    .mainlefttext {
+        width: 100%;
+    }
+    .mainleftdeed {
+        width: 100%;
+    }
 }
