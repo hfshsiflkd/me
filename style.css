@@ -235,17 +235,25 @@
 }
 
 @media screen and (min-width:320px) and (max-width:760px) {
+    * {
+
+        font-weight: 400;
+        text-align: left;
+        text-decoration-skip-ink: none;
+
+    }
+
     .mainbody {
         display: flex;
         flex-direction: column;
     }
 
     .main {
-        height: 1400px;
+        height: auto;
     }
 
     .mainrigth {
-        width: 343px;
+        width: auto;
         height: 400px;
         margin-top: 14px;
     }
@@ -295,7 +303,6 @@
     }
 
     .mainborder1px {
-        /* height: 900px; */
         width: 100%;
         padding-bottom: 60px;
     }
@@ -307,9 +314,84 @@
     }
 
     .mainer {
-        height: 160vh;
         display: flex;
         align-items: start;
     }
 
+    .interview {
+        width: auto;
+        height: 3060px;
+        padding: 0px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainleftdood {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .interviewh1 {
+
+        height: 133px;
+        color: #FFFFFF;
+        gap: 15px;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
+
+    .interviewh1 p {
+
+        color: #C7C7C7;
+        font-size: 18px;
+    }
+
+    .interviewsite {
+        height: 877px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        
+        
+    }
+    .sitezurag {
+        width: 343px;
+        height: 343px;
+        border: 1px solid red;
+        background-color: #1A1A1A;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+    .sitezurag img {
+        width: 343px;
+        height: 343px;
+        padding-left: 20px;
+        object-fit: cover;
+        padding-top: 20px;
+        padding-right: 20px;
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+       
+
+    }
+    .zuragbox {
+        width: 123px;
+        height: 30px;
+        background-color: #0A0A0A;
+        border-radius: 30px;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+    .sitetext {
+        height: 494px;
+        width: 343px;
+    }
 }
