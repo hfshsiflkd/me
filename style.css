@@ -542,9 +542,11 @@
         height: 184px;
         margin-top: 20px;
     }
+
     .aboutmetext h1 {
         display: none;
     }
+
     .aboutmetext span {
         display: none;
     }
@@ -572,6 +574,7 @@
         margin-top: 40px;
 
     }
+
     .aboutmetet {
         width: 307px;
         height: 91px;
@@ -579,6 +582,7 @@
         display: none;
 
     }
+
     .foot {
         width: 100%;
         padding: 0px 15px;
@@ -755,8 +759,9 @@
         text-align: left;
 
         text-decoration-skip-ink: none;
-        
+
     }
+
     .copyrigth {
         width: 200px;
         height: 26px;
@@ -764,12 +769,14 @@
         color: #C7C7C7;
         margin-top: 60px;
     }
+
     .copyrigth h1 {
         width: 200px;
         height: 26px;
-        
+
         color: #C7C7C7;
     }
+
     .copyrigth1 {
         width: 200px;
         height: 26px;
@@ -777,8 +784,9 @@
         color: #C7C7C7;
         margin-top: 60px;
         display: none;
-       
+
     }
+
     .ABOUTMEFLEX {
         justify-content: center;
         display: flex;
@@ -789,27 +797,31 @@
 
 
 }
+
 @media screen and (min-width:1440px) {
     .interviewdisplayflex {
         justify-content: center;
         display: flex;
         align-items: center;
-        
+
     }
+
     .ABOUTMEFLEX {
         justify-content: center;
         display: flex;
         align-items: center;
         height: 600px;
     }
+
     .interview {
         width: 1440px;
         height: 2418px;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
+        justify-content: space-around;
         padding: 0px 108px;
     }
+
     .interviewh1 {
         width: 600px;
         height: 138px;
@@ -823,7 +835,7 @@
     }
 
     .interviewh1 p {
-        
+
         color: #C7C7C7;
         font-size: 19px;
     }
@@ -854,8 +866,7 @@
         border-top-left-radius: 40px;
         border-top-right-radius: 40px;
         object-fit: contain;
-        padding-bottom: 140px
-        ;
+        padding-bottom: 140px;
 
 
     }
@@ -889,8 +900,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-      
+
     }
+
     .sitetext h1 {
         width: 576px;
         height: 90px;
@@ -1020,14 +1032,17 @@
         height: 241px;
         margin-top: 120px;
     }
-    .aboutmetext1  {
+
+    .aboutmetext1 {
         width: 704px;
         height: 241px;
     }
-    .aboutmetext1 h1  {
+
+    .aboutmetext1 h1 {
         width: 704px;
         height: 90px;
     }
+
     .aboutmetext1 span {
         width: 704px;
         height: 135px;
@@ -1059,10 +1074,11 @@
         height: 400px;
         margin-top: 40px;
         display: none;
-        
-        
+
+
 
     }
+
     .aboutmetet {
         width: 307px;
         height: 91px;
@@ -1080,7 +1096,7 @@
         background-color: #0A0A0A;
         display: flex;
         flex-direction: column;
-    
+
         align-items: center;
     }
 
@@ -1090,7 +1106,7 @@
         display: flex;
         padding-top: 60px;
         justify-content: space-between;
-        
+
     }
 
     .footertext {
@@ -1102,6 +1118,7 @@
         flex-direction: column;
 
     }
+
     .deveve {
         width: 600px;
         height: 226px;
@@ -1253,37 +1270,41 @@
         text-align: left;
 
         text-decoration-skip-ink: none;
-        
+
     }
+
     .copyrigth {
         width: 200px;
         height: 26px;
         font-size: 9px;
         color: #C7C7C7;
         margin-top: 60px;
-        display:none;
+        display: none;
     }
+
     .copyrigth h1 {
         width: 200px;
         height: 26px;
-        
+
         color: #C7C7C7;
-        
+
     }
+
     .copyrigth1 {
         width: 200px;
         height: 26px;
         font-size: 17px;
         color: #C7C7C7;
         margin-top: 60px;
-       
+
     }
+
     .copyrigth1 p {
         width: 200px;
         height: 26px;
-        
+
         color: #C7C7C7;
-        
+
     }
-   
+
 }
